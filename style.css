@@ -55,7 +55,6 @@ html, body {
   }
 
   p {
-    margin: 0.75em 0;
     line-height: 2;
   }
   
@@ -69,22 +68,16 @@ html, body {
   }
 
   #summary {
-    padding-top: 2em;
-  }
-  
-  .li {
-      padding: 2em;
+    padding-top: 20px;
   }
 
   .img {
+      padding-top: 20px;
       height: 200px;
       width: 200px;
       position: relative;
   }
 
-  .aside {
-      background-color: #2e484c;
-  }
   footer {
       text-align: center;
       padding-top: 20px;
