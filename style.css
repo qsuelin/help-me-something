@@ -71,6 +71,10 @@ html, body {
   #summary {
     padding-top: 2em;
   }
+  
+  .ul {
+      padding: 2em;
+  }
 
   .img {
       height: 200px;
