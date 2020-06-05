@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    color: #325050;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 100%;
+  }
+
+  header {
+    height: 200px;
+    padding: 40px 0 20px 0;  
+    background-image: url(images/plants.webp);
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    padding: 10% 10%;
+    margin: 0;
+    color: #fff;
+  }
+
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-top: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 1.6em;
+    font-style: italic;
+  }
+
+  h3 {
+    margin: 2em 0 0 0;
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0.75em 0;
+    line-height: 2;
+  }
+  
+  main {
+      position: relative;
+  }
+  
+  #summary, #preamble, #contents {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #summary {
+    padding-top: 2em;
+  }
+
+  .img {
+      height: 200px;
+      width: 200px;
+      position: relative;
+  }
+
+  .aside {
+      background-color: #2e484c;
+  }
+  footer {
+      text-align: center;
+      padding-top: 20px;
+  }
